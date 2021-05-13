@@ -8,12 +8,25 @@
     <meta name="keywords" content="UXUI, Ironhack, Design Principles">
     <meta name="author" content="Denetra Christian">
     <title>Denetra's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* div {
+            /*border: 1px red solid;
+        } */
+    </style>
 </head>
+
+
 <body>
     <!-- Header - start -->
     <header>
-        <img src="" alt="Denetra's Logo"> logo
-        search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Denetra's Logo">
+
+        <form action="#">
+        <input type="search"> 
+        <input type="submit" value="Find">
+        </form>
+
         <nav>
             About 
             Products
@@ -24,7 +37,7 @@
     <!-- Header - end -->
 
     <!-- Hero - start -->
-    <section>
+<section id="hero">
     <h1>Heading 1</h1>
     <h3>Heading 3</h3>
     Call to Action
@@ -35,30 +48,30 @@
     <section>
         <!-- Card 1 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/photo-1545622759-193d0690d06b.jpg" alt="" class="img-card">
             <h3>heading3</h3>
             <p>paragrapgh</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_02.png" alt="avatar">
             <p>author name</p>
           </div>
         <!-- Cart 1 - end -->
 
         <!-- Card 2 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/photo-1593542468714-ac3ba4b38d43.jpg" alt="" class="img-card">
             <h3>heading3</h3>
             <p>paragrapgh</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_03.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- Cart 2 - end -->
 
         <!-- Card 3 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/photo-1596510915005-2cd3c22b37df.jpg" alt="" class="img-card">
             <h3>heading3</h3>
             <p>paragrapgh</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_04.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- Cart 3 - end -->
@@ -76,7 +89,7 @@
     <!-- Features - start -->
     <!-- Features 1 - start -->
     <div>
-        <img src="" alt="">
+        <img src="img/photo-1457195740896-7f345efef228.jpg" alt=""class="img-feat">
         <h2>title</h2>
         <p>description</p>
        </div>
@@ -84,7 +97,7 @@
 
     <!-- Features 2 - start -->
     <div>
-        <img src="" alt="">
+        <img src="img/photo-1519873174361-37788c5a73c7.jpg" alt="" class="img-feat">
         <h2>title</h2>
         <p>description</p>
     </div>
@@ -92,7 +105,7 @@
 
     <!-- Features 3 - start -->
     <div>
-        <img src="" alt="">
+        <img src="img/photo-1538300342682-cf57afb97285.jpg" alt="" class="img-feat">
         <h2>title</h2>
         <p>description</p>
     </div>
@@ -108,10 +121,24 @@
             <h3>Contact Us</h3>
             <p>Address</p>
         <div>
-            name
-            email 
-            message
-            button 
+            <form action="#"> 
+                <label for="name">name</label>
+                <input id="Name" type="text" placeholder="Jade McVay">
+
+                <br><br>
+                
+                <label for="email">Email</label> 
+                <input id="email" type="email" placeholder="jade@gmail.com">
+
+                <br><br>
+
+                <label for="message">Message</label>
+                <textarea id="Message" row="6" cols="50" placeholder="Write a message to me"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
         </div>
     </section>
     <!--Contact - end -->

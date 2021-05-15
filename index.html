@@ -8,12 +8,19 @@
     <meta name="keywords" content="UXUI, Ironhack, Design Principles">
     <meta name="author" content="Denetra Christian">
     <title>Denetra's Page</title>
+    <!--Style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
         /* div {
             /*border: 1px red solid;
         } */
     </style>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:ital@1&display=swap" rel="stylesheet">    
+    <!--Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 
@@ -28,10 +35,11 @@
         </form>
 
         <nav>
-            About 
-            Products
-            Testimonials
-            Contact
+            <a href="#"></a>About 
+            <a href></a>Products
+            <a href></a>Testimonials
+            <a href></a>Contact
+            <A href="#"<i class="ri-file-download-line ri-1x"></i>
         </nav>
     </header>
     <!-- Header - end -->
@@ -40,46 +48,53 @@
 <section id="hero">
     <h1>Heading 1</h1>
     <h3>Heading 3</h3>
-    Call to Action
+    <a href="#" class="cta button"> <i class="ri-shopping-cart-2-fill ri-lg"></i>Call to Action</a>
     </section> 
     <!-- Hero - end -->
 
     <!-- Article card - start -->
-    <section>
+    <section id="articles" class="container">
         <!-- Card 1 - start -->
-        <div>
+        <div class="cards">
             <img src="img/photo-1545622759-193d0690d06b.jpg" alt="" class="img-card">
-            <h3>heading3</h3>
+            <h5>heading5</h5>
             <p>paragrapgh</p>
-            <img src="img/avatar_02.png" alt="avatar">
-            <p>author name</p>
+            <div class="container">
+                <img src="img/avatar_02.png" alt="avatar">
+                <p>author name</p>
+            </div>
           </div>
         <!-- Cart 1 - end -->
 
         <!-- Card 2 - start -->
         <div>
             <img src="img/photo-1593542468714-ac3ba4b38d43.jpg" alt="" class="img-card">
-            <h3>heading3</h3>
+            <h5>heading5</h5>
             <p>paragrapgh</p>
-            <img src="img/avatar_03.png" alt="avatar">
-            <p>author name</p>
+            <div class="container">
+                <img src="img/avatar_03.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- Cart 2 - end -->
 
         <!-- Card 3 - start -->
         <div>
-            <img src="img/photo-1596510915005-2cd3c22b37df.jpg" alt="" class="img-card">
-            <h3>heading3</h3>
+            <img src="img/photo-1596510915005-2cd3c22b37df.jpg" alt="" class="img-card" class= "author-photo">
+            <h5>heading5</h5>
             <p>paragrapgh</p>
-            <img src="img/avatar_04.png" alt="avatar">
-            <p>author name</p>
+            <div class="container">
+                <img src="img/avatar_04.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- Cart 3 - end -->
     </section>
     <!-- Article card - end -->
 
     <!-- Video - start -->
-    <section>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N9zCCHZO1ag?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <video>
             <source src="" type="video/mp4">
         </video>
@@ -114,7 +129,7 @@
     <!-- Features - end -->
 
     <!--Contact - start -->
-    <section>
+    <section id="contact">
         <div>
          Contact Us
         </div>
@@ -156,9 +171,11 @@
         <!--Social Media - start -->
         <div>
         <h4>Social Media</h4>
-            Facebook
-            Instagram
-            Twitter
+        <div class="icons">
+            <a href="https://wwww.facbook.com" target="_blank"></a><i class="ri-facebook-box-line"></i>
+            <a href="https://www.instagram.com" target="_blank"></a><i class="ri-instagram-line"></i>
+            <a href="https://www.twitter.com" target="_blank"></a><i class="ri-twitter-line"></i>
+            <a ref="https://www.medium.com" target="_blank"></a><i class="ri-medium-line"></i>
         </div>
         <!--Social Media - end -->
     </footer>

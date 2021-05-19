@@ -1,14 +1,15 @@
 
 *{
-    font-family:font-family: 'Open Sans', sans-serif; ;
+    font-family: 'Open Sans', sans-serif; ;
 }
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 
 }
 
 h1 { 
 font-size: 4.209rem
-
 }
 h2 { 
     font-size: 3.052rem
@@ -23,10 +24,10 @@ h5 {
     font-size: 1.563rem
   }
 h6 { 
-    font-size: 3.052rem
+    font-size: 1.25rem
   }
 p {
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -125,9 +126,24 @@ a.cta-button:active {
     margin-right: 8px;
 }
 
+.feat-card {
+    
+}
 #hero {
     background-image: url('../img/photo-1568145675395-66a2eda0c6d7\ \(1\).jpg');
     background-size: cover;
     height: 30vh;
     text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+/* #hero div h3 {
+    background-color: yel;
+}*/
+
+#articles {
+    justify-content: space-between;
 }

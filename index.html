@@ -59,23 +59,27 @@
     <!-- Article card - start -->
     <section id="articles" class="container">
         <!-- Card 1 - start -->
-        <div class="cards">
-            <img src="img/photo-1545622759-193d0690d06b.jpg" alt="" class="img-card">
+        <div class="card">
+            <div class="img-holder">
+                <img src="img/photo-1545622759-193d0690d06b.jpg" alt="" class="img-card">
+            </div>
             <h5>heading5</h5>
             <p>paragrapgh</p>
-            <div class="container">
+            <div class="container author-card">
                 <img src="img/avatar_02.png" alt="avatar">
                 <p>author name</p>
             </div>
-          </div>
+        </div>
         <!-- Cart 1 - end -->
 
         <!-- Card 2 - start -->
-        <div>
-            <img src="img/photo-1593542468714-ac3ba4b38d43.jpg" alt="" class="img-card">
+        <div class="card">
+            <div class="img-holder">
+                <img src="img/photo-1593542468714-ac3ba4b38d43.jpg" alt="" class="img-card">
+            </div class= "img-holder">
             <h5>heading5</h5>
             <p>paragrapgh</p>
-            <div class="container">
+            <div class="container author-card">
                 <img src="img/avatar_03.png" alt="avatar" class="author-photo">
                 <p>author name</p>
             </div>
@@ -83,11 +87,13 @@
         <!-- Cart 2 - end -->
 
         <!-- Card 3 - start -->
-        <div>
-            <img src="img/photo-1596510915005-2cd3c22b37df.jpg" alt="" class="img-card" class= "author-photo">
+        <div  class="card">
+            <div class="img-holder">
+                <img src="img/photo-1596510915005-2cd3c22b37df.jpg" alt="" class="img-card" class= "author-photo">
+            </div>
             <h5>heading5</h5>
             <p>paragrapgh</p>
-            <div class="container">
+            <div class="container author-card">
                 <img src="img/avatar_04.png" alt="avatar" class="author-photo">
                 <p>author name</p>
             </div>
@@ -99,8 +105,8 @@
     <!-- Video - start -->
     <section id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/N9zCCHZO1ag?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <video>
-            <source src="" type="video/mp4">
+        <video controls>
+            <source src="https://r5---sn-hp57yne7.googlevideo.com/videoplayback?expire=1621485096&ei=yJGlYIr7J8LO4QTmmpbwDA&ip=76.108.175.231&id=o-AMezFLyx4UvgkAb-VtCiImHKBMWVdH1Vtty6HUj962HY&itag=18&source=youtube&requiressl=yes&mh=mZ&mm=31,26&mn=sn-hp57yne7,sn-5uaezn7e&ms=au,onr&mv=m&mvi=5&pl=19&initcwndbps=1686250&vprv=1&mime=video/mp4&ns=TwhAxreyVCbSaUJRa5rPPaMF&gir=yes&clen=331596464&ratebypass=yes&dur=3607.127&lmt=1586600062250928&mt=1621463323&fvip=5&fexp=24001373,24007246&c=WEB&txp=5531432&n=IgeGDHnBcDDsYfWOZA&sparams=expire,ei,ip,id,itag,source,requiressl,vprv,mime,ns,gir,clen,ratebypass,dur,lmt&lsparams=mh,mm,mn,ms,mv,mvi,pl,initcwndbps&lsig=AG3C_xAwRQIgTGR4ZuLEm8HosWlyDuExX-GDVEPpuzYpFn-OjpT30mgCIQDMrTaE8hWDYsFtxGbcgO1J5OcyArq3rkzyblWF2ipSJw==&sig=AOq0QJ8wRAIgUlHcIXfBn4DdlFtTUR7m_zTe1ejw2IzRlEliD0RhVz0CIBOPJZMxRoT4p3uL5cY2Yi8X_2BOezJlwtC-qTIfP7D5" type="video/mp4">
         </video>
     </section>
     <!-- Video - end -->
@@ -109,9 +115,10 @@
     <!-- Features 1 - start -->
     <div class="container">
         <img src="img/photo-1457195740896-7f345efef228.jpg" alt=""class="img-feat">
-        <div>
+        <div class="feat-item">
             <h2>title</h2>
             <p>description</p>
+            <a href="#" class="btn rocio">View More</a>
         </div>
        </div>
     <!-- Features 1 - end -->
@@ -119,19 +126,21 @@
     <!-- Features 2 - start -->
     <div class="container">
         <img src="img/photo-1519873174361-37788c5a73c7.jpg" alt="" class="img-feat">
-        <div>
+        <div class="feat-item">
             <h2>title</h2>
             <p>description</p>
+            <a href="#" class="btn rocio">View More</a>
         </div>
     </div>
     <!-- Features 2 - end -->
 
     <!-- Features 3 - start -->
     <div class="container">
-        <div>
+        <div class="feat-item">
             <img src="img/photo-1538300342682-cf57afb97285.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
+            <a href="#" class="btn rocio">View More</a>
         </div>
     </div>
     <!-- Features 3 - end -->
@@ -145,6 +154,7 @@
         </div>
             <h3>Contact Us</h3>
             <p>Address</p>
+        </div>
         <div>
             <form action="#"> 
                 <label for="name">name</label>
@@ -169,23 +179,24 @@
     <!--Contact - end -->
 
     <!-- Footer - end -->
-    <footer>
+    <footer class="container">
         <!--Menu - start -->
         <div>
-        About Us 
-        Products
+        <a href="#">About US</a>><br>
+        <a href="#"Products></a>
         Testimonials
         </div>  
         <!--Menu - end -->
 
         <!--Social Media - start -->
         <div>
-        <h4>Social Media</h4>
-        <div class="icons">
-            <a href="https://wwww.facbook.com" target="_blank"></a><i class="ri-facebook-box-line"></i>
-            <a href="https://www.instagram.com" target="_blank"></a><i class="ri-instagram-line"></i>
-            <a href="https://www.twitter.com" target="_blank"></a><i class="ri-twitter-line"></i>
-            <a ref="https://www.medium.com" target="_blank"></a><i class="ri-medium-line"></i>
+            <h4>Social Media</h4>
+            <div class="icons">
+                <a href="https://wwww.facbook.com" target="_blank"></a><i class="ri-facebook-box-line"></i>
+                <a href="https://www.instagram.com" target="_blank"></a><i class="ri-instagram-line"></i>
+                <a href="https://www.twitter.com" target="_blank"></a><i class="ri-twitter-line"></i>
+                <a ref="https://www.medium.com" target="_blank"></a><i class="ri-medium-line"></i>
+            </div>
         </div>
         <!--Social Media - end -->
     </footer>
